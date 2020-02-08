@@ -46,7 +46,7 @@ function createConfig() {
       level: "info",
       transports: ["stdout"]
     },
-    mail: {
+    /*mail: {
       transport: 'SMTP',
       options: {
         service: 'Mailgun',
@@ -55,7 +55,7 @@ function createConfig() {
           pass: process.env.MAILGUN_SMTP_PASSWORD
         }
       }
-    },
+    },*/
     fileStorage: fileStorage,
     storage: storage,
     database: {
